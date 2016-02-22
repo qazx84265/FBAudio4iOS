@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC250F2E1C7ADF5900B269E8 /* FBAudioVisualizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC250F2D1C7ADF5900B269E8 /* FBAudioVisualizerView.m */; };
+		EC250F311C7AF22E00B269E8 /* FBAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC250F301C7AF22E00B269E8 /* FBAudioPlayer.m */; };
+		EC2C12F81C76B861004CAA8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2C12F71C76B861004CAA8C /* main.m */; };
+		EC2C12FB1C76B861004CAA8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2C12FA1C76B861004CAA8C /* AppDelegate.m */; };
+		EC2C12FE1C76B861004CAA8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2C12FD1C76B861004CAA8C /* ViewController.m */; };
+		EC2C13011C76B861004CAA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2C12FF1C76B861004CAA8C /* Main.storyboard */; };
+		EC2C13031C76B861004CAA8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2C13021C76B861004CAA8C /* Assets.xcassets */; };
+		EC2C13061C76B861004CAA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2C13041C76B861004CAA8C /* LaunchScreen.storyboard */; };
+		EC2C13111C76B91B004CAA8C /* FBAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2C13101C76B91B004CAA8C /* FBAudioRecorder.m */; };
+		EC2C13151C771DB0004CAA8C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2C13141C771DB0004CAA8C /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC250F2C1C7ADF5900B269E8 /* FBAudioVisualizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAudioVisualizerView.h; sourceTree = "<group>"; };
+		EC250F2D1C7ADF5900B269E8 /* FBAudioVisualizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAudioVisualizerView.m; sourceTree = "<group>"; };
+		EC250F2F1C7AF22E00B269E8 /* FBAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAudioPlayer.h; sourceTree = "<group>"; };
+		EC250F301C7AF22E00B269E8 /* FBAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAudioPlayer.m; sourceTree = "<group>"; };
+		EC2C12F31C76B861004CAA8C /* FBAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2C12F71C76B861004CAA8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC2C12F91C76B861004CAA8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC2C12FA1C76B861004CAA8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC2C12FC1C76B861004CAA8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC2C12FD1C76B861004CAA8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC2C13001C76B861004CAA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2C13021C76B861004CAA8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2C13051C76B861004CAA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC2C13071C76B861004CAA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2C130F1C76B91B004CAA8C /* FBAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAudioRecorder.h; sourceTree = "<group>"; };
+		EC2C13101C76B91B004CAA8C /* FBAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAudioRecorder.m; sourceTree = "<group>"; };
+		EC2C13141C771DB0004CAA8C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2C12F01C76B861004CAA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2C13151C771DB0004CAA8C /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2C12EA1C76B861004CAA8C = {
+			isa = PBXGroup;
+			children = (
+				EC2C13141C771DB0004CAA8C /* AVFoundation.framework */,
+				EC2C12F51C76B861004CAA8C /* FBAudio */,
+				EC2C12F41C76B861004CAA8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2C12F41C76B861004CAA8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2C12F31C76B861004CAA8C /* FBAudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2C12F51C76B861004CAA8C /* FBAudio */ = {
+			isa = PBXGroup;
+			children = (
+				EC2C13131C76BA35004CAA8C /* FBAudioVisualizer */,
+				EC2C13121C76B92B004CAA8C /* FBAudioCommon */,
+				EC2C130E1C76B898004CAA8C /* FBAudioPlayer */,
+				EC2C130D1C76B867004CAA8C /* FBAudioRecorder */,
+				EC2C12F91C76B861004CAA8C /* AppDelegate.h */,
+				EC2C12FA1C76B861004CAA8C /* AppDelegate.m */,
+				EC2C12FC1C76B861004CAA8C /* ViewController.h */,
+				EC2C12FD1C76B861004CAA8C /* ViewController.m */,
+				EC2C12FF1C76B861004CAA8C /* Main.storyboard */,
+				EC2C13021C76B861004CAA8C /* Assets.xcassets */,
+				EC2C13041C76B861004CAA8C /* LaunchScreen.storyboard */,
+				EC2C13071C76B861004CAA8C /* Info.plist */,
+				EC2C12F61C76B861004CAA8C /* Supporting Files */,
+			);
+			path = FBAudio;
+			sourceTree = "<group>";
+		};
+		EC2C12F61C76B861004CAA8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2C12F71C76B861004CAA8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC2C130D1C76B867004CAA8C /* FBAudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				EC2C130F1C76B91B004CAA8C /* FBAudioRecorder.h */,
+				EC2C13101C76B91B004CAA8C /* FBAudioRecorder.m */,
+			);
+			name = FBAudioRecorder;
+			sourceTree = "<group>";
+		};
+		EC2C130E1C76B898004CAA8C /* FBAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EC250F2F1C7AF22E00B269E8 /* FBAudioPlayer.h */,
+				EC250F301C7AF22E00B269E8 /* FBAudioPlayer.m */,
+			);
+			name = FBAudioPlayer;
+			sourceTree = "<group>";
+		};
+		EC2C13121C76B92B004CAA8C /* FBAudioCommon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FBAudioCommon;
+			sourceTree = "<group>";
+		};
+		EC2C13131C76BA35004CAA8C /* FBAudioVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				EC250F2C1C7ADF5900B269E8 /* FBAudioVisualizerView.h */,
+				EC250F2D1C7ADF5900B269E8 /* FBAudioVisualizerView.m */,
+			);
+			name = FBAudioVisualizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2C12F21C76B861004CAA8C /* FBAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2C130A1C76B861004CAA8C /* Build configuration list for PBXNativeTarget "FBAudio" */;
+			buildPhases = (
+				EC2C12EF1C76B861004CAA8C /* Sources */,
+				EC2C12F01C76B861004CAA8C /* Frameworks */,
+				EC2C12F11C76B861004CAA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBAudio;
+			productName = FBAudio;
+			productReference = EC2C12F31C76B861004CAA8C /* FBAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2C12EB1C76B861004CAA8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.pureLake;
+				TargetAttributes = {
+					EC2C12F21C76B861004CAA8C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EC2C12EE1C76B861004CAA8C /* Build configuration list for PBXProject "FBAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2C12EA1C76B861004CAA8C;
+			productRefGroup = EC2C12F41C76B861004CAA8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2C12F21C76B861004CAA8C /* FBAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2C12F11C76B861004CAA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2C13061C76B861004CAA8C /* LaunchScreen.storyboard in Resources */,
+				EC2C13031C76B861004CAA8C /* Assets.xcassets in Resources */,
+				EC2C13011C76B861004CAA8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2C12EF1C76B861004CAA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC250F2E1C7ADF5900B269E8 /* FBAudioVisualizerView.m in Sources */,
+				EC250F311C7AF22E00B269E8 /* FBAudioPlayer.m in Sources */,
+				EC2C13111C76B91B004CAA8C /* FBAudioRecorder.m in Sources */,
+				EC2C12FE1C76B861004CAA8C /* ViewController.m in Sources */,
+				EC2C12FB1C76B861004CAA8C /* AppDelegate.m in Sources */,
+				EC2C12F81C76B861004CAA8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC2C12FF1C76B861004CAA8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2C13001C76B861004CAA8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC2C13041C76B861004CAA8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2C13051C76B861004CAA8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2C13081C76B861004CAA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC2C13091C76B861004CAA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2C130B1C76B861004CAA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pureLake.FBAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC2C130C1C76B861004CAA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pureLake.FBAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2C12EE1C76B861004CAA8C /* Build configuration list for PBXProject "FBAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2C13081C76B861004CAA8C /* Debug */,
+				EC2C13091C76B861004CAA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2C130A1C76B861004CAA8C /* Build configuration list for PBXNativeTarget "FBAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2C130B1C76B861004CAA8C /* Debug */,
+				EC2C130C1C76B861004CAA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2C12EB1C76B861004CAA8C /* Project object */;
+}
